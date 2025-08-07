@@ -72,6 +72,5 @@ public class DateTimeLab {
         System.out.print(period.getYears() + " years, ");
         System.out.print(period.getMonths() + " months, and ");
         System.out.println(period.getDays() + " days.");
-
     }
 }
