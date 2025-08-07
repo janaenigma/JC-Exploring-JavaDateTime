@@ -10,7 +10,14 @@ Submitted by: Baruc, Jana Enigma S.
 
 ### Exercise 2: `LocalTime` and `DateTimeFormatter`
 1. **Prediction**: `Default format: 16:45:30`, `24-hour format: 16:45:30`, `12-hour format with AM/PM: 4:45:30 PM`
-    * `LocalTime.of()` will return the specific time without any formatting. To format the times specifically, similar to dates, `DateFormatter` must be used. In this case, `DateFormatter.ofPattern()` was used to achieve the specific formats required.
+    * `LocalTime.of()` will return the specific time without any formatting. To format the times specifically, similar to dates, `DateFormatter` must be used. In this case, `DateFormatter.ofPattern()` was used to achieve the specific formats required. For time formats, `HH` is used for 24-hour formats, while `hh` is used for 12-hour formats, along with `a` which signifies AM or PM.
 2. **Observation/Output**
 
 ![Exercise 2 Output](exercise2.png)
+
+### Exercise 3: `LocalDateTime` and `DateTimeFormatter`
+1. **Prediction**: `Default format: 2025-11-27T19:00:00`, `Custom format: Nov 27, 2025 at 7:00 PM`
+    * `LocalDateTime.of()` will return the specific date and time without any formatting. To format this, `DateFormatter` must be used. In this case, `DateFormatter.ofPattern()` was used to achieve the specific formats required. `MMM` is used to print the abbreviated month (in this case "Nov" for "November").
+2. **Observation/Output**
+
+![Exercise 3 Output](exercise3.png)
