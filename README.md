@@ -35,3 +35,10 @@ Submitted by: Baruc, Jana Enigma S.
 2. **Observation/Output**
 
 ![Exercise 5 Output](exercise5.png)
+
+### Exercise 6: `Period` - Measuring a Span of Time
+1. **Prediction**: `The period between the two dates is: 2 years, 4 months, and 5 days`
+    * The `Period` class is used to find the difference between two **dates**. In this case, the difference between the two dates given is 2 years, 4 months, and 5 days.
+2. **Observation/Output**
+
+![Exercise 6 Output](exercise6.png)
