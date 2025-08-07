@@ -28,3 +28,10 @@ Submitted by: Baruc, Jana Enigma S.
 2. **Observation/Output**
 
 ![Exercise 4 Output](exercise4.png)
+
+### Exercise 5: Adding and Subtracting Time (`plus` and `minus`)
+1. **Prediction**: `Base Time: 2025-10-15 10:20:00`, `Future time: 2026-12-15 15:20:00`, `Past time: 2025-09-21 10:20:00`
+    * The code will simply print the dates and times in accordance to the `plus` and  `minus` methods provided.
+2. **Observation/Output**
+
+![Exercise 5 Output](exercise5.png)
