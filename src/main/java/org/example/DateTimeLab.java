@@ -29,12 +29,24 @@ public class DateTimeLab {
 //        System.out.println("12-hour format with AM/PM: " + now.format(dtf2));
 
         // Exercise 3: LocalDateTime and DateTimeFormatter
-        LocalDateTime event = LocalDateTime.of(2025, 11, 27, 19, 0, 0);
+//        LocalDateTime event = LocalDateTime.of(2025, 11, 27, 19, 0, 0);
+//
+//        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMM dd, yyyy 'at' hh:mm a");
+//
+//        System.out.println("Default format: " + event);
+//        System.out.println("Custom format: " + event.format(dtf));
 
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMM dd, yyyy 'at' hh:mm a");
+        // Exercise 4: The Immutability of Date-Time Objects
+        LocalDate startDate = LocalDate.of(2025, 9, 1);
 
-        System.out.println("Default format: " + event);
-        System.out.println("Custom format: " + event.format(dtf));
+        startDate.plusDays(10);
+
+        System.out.println("Start date after trying to modify it: " + startDate);
+
+        LocalDate endDate = startDate.plusDays(10);
+
+        System.out.println("The original start date is still: " + startDate);
+        System.out.println("The new end date is: " + endDate);
 
     }
 }

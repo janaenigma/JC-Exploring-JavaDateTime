@@ -21,3 +21,10 @@ Submitted by: Baruc, Jana Enigma S.
 2. **Observation/Output**
 
 ![Exercise 3 Output](exercise3.png)
+
+### Exercise 4: The Immutability of Date-Time Objects
+1. **Prediction**: `Start date after trying to modify it: 2025-09-01`, `The original start date is still: 2025-09-01`, `The new end date is: 2025-09-11`
+    * The first attempt to modify `startDate` does not change the date because Date-Time objects are immutable. They have to be stored in a new Date-Time object in order to "modify" them.
+2. **Observation/Output**
+
+![Exercise 4 Output](exercise4.png)
